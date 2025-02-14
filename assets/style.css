@@ -1,0 +1,175 @@
+/* Normalizar los estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Establecer el color de fondo y el texto en modo oscuro */
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+  }
+  
+  /* Ajustar la tipografía */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Enlaces con un toque estético */
+  a {
+    color: #64b5f6;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #1e88e5;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #64b5f6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #1e88e5;
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Formularios con un diseño más limpio */
+  input, textarea, select {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    background-color: #444444;
+    border-color: #64b5f6;
+    outline: none;
+  }
+  
+  /* Estilo para contenedores */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de la cabecera */
+  header {
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  /* Estilo para las listas */
+  ul, ol {
+    list-style-position: inside;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  li a {
+    font-weight: normal;
+  }
+  
+  /* Modificar la apariencia de las tablas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #555555;
+  }
+  
+  table th {
+    background-color: #2a2a2a;
+  }
+  
+  table td {
+    background-color: #333333;
+  }
+  
+  table tr:hover {
+    background-color: #444444;
+  }
+  
+  /* Estilo para las tarjetas (card-like containers) */
+  .card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: #64b5f6;
+  }
+  
+  /* Estilo para los pies de página */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+  
+
+.climas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.clima {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+    
